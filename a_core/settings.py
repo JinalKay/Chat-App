@@ -28,6 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*'],
 ['JinalKay.pythonanywhere.com']
 
+DEBUG = False  # Set to False for production
+STATIC_ROOT = '/home/JinalKay/Chat-App/static'
+
+
 
 CSRF_TRUSTED_ORIGINS = [ 'http://localhost',       
     'http://127.0.0.1',        
